@@ -13,15 +13,15 @@ while(limit < 5):
         print("Pleases Give Correct Input")
 
     if(userAnswer == randomNumber):
-        print("Congratulations!! Your Guess Is Correct")
+        print("Congratulations!! Your guess is correct")
         limit = 6
     elif (userAnswer > randomNumber):
-        print("Your Guess is Bigger than My number")
+        print("Your guess is bigger than the number")
     elif (userAnswer < randomNumber):
-        print("Your Guess is Smaller than My number")
+        print("Your guess is smaller than the number")
 
     limit = limit + 1
 
 if(limit == 5):
-    print("Your Chances Are Completed")
+    print("Your chances are completed")
     print(f'Your number was {randomNumber} ')
